@@ -4,6 +4,6 @@ LABEL maintainer="gargiulo.gianni@gmail.com"
 RUN apt-get update; \
     apt-get install -y libboost-filesystem1.58.0 libboost-program-options1.58.0 libboost-system1.58.0 \
     libboost-thread1.58.0 libc6 libdb5.3++ libgcc1 libminiupnpc10 libqt5core5a libqt5gui5 libqt5widgets5 \
-    libssl1.0.0 libstdc++6; rm -rf /var/lib/apt/lists/*; rm /root/libs
+    libssl1.0.0 libstdc++6; rm -rf /var/lib/apt/lists/*;
 
 ENTRYPOINT ["/bin/bash"]
