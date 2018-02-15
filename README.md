@@ -22,6 +22,8 @@ Below a list of images, and their function, contained in this repo.
 
 The `Makefile` at the root of the project contains a few targets to quickly build `Electra` docker images.
 
+If you want to *just* build the images w/o publishing them to the docker hub, you can simply run `make build-all`.
+
 Please note that, in order to push images to [docker-hub](https://hub.docker.com/u/electracoin/), it is required
 to be part of the d `Electracoin` organization and login first.
 
